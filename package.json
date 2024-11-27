@@ -1,0 +1,23 @@
+{
+    "name": "Bv-Xml",
+    "version": " X",
+    "description": "up",
+    "main": "endpoint.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node endpoint.js"
+    },
+    "keywords": [
+        "whiskeysockets",
+        "multi-device"
+    ],
+    "author": "yell",
+    "license": "MIT",
+    "dependencies": {
+        "@whiskeysockets/baileys":"latest",
+        "@hapi/boom": "^10.0.1",
+        "express": " latest",        
+        "chalk": "^5.3.0",
+        "pino": "^9.5.0",
+        "util": "^0.12.5"
+}
