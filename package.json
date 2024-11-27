@@ -1,7 +1,7 @@
 {
-    "name": "Bv-Xml",
-    "version": " X",
-    "description": "up",
+    "name": "bv-xml",
+    "version": "1.0.0",
+    "description": "WhatsApp Multi-Device API",
     "main": "endpoint.js",
     "type": "commonjs",
     "scripts": {
@@ -9,15 +9,17 @@
     },
     "keywords": [
         "whiskeysockets",
-        "multi-device"
+        "multi-device",
+        "whatsapp"
     ],
-    "author": "yell",
+    "author": "Yell",
     "license": "MIT",
     "dependencies": {
-        "@whiskeysockets/baileys":"latest",
+        "@whiskeysockets/baileys": "^6.7.9",
         "@hapi/boom": "^10.0.1",
-        "express": " latest",        
+        "express": "^4.21.1",
         "chalk": "^5.3.0",
         "pino": "^9.5.0",
         "util": "^0.12.5"
+    }
 }
