@@ -16,4 +16,4 @@ jobs:
       run: sudo apt-get install -y unzip
 
     - name: Extract session.zip
-      run: unzip /home/runner/work/crazyyyyBvvvv-yessssyelll/crazyyyyBvvvv-yessssyelll/session.zip
+      run: unzip crazyyyyBvvvv-yessssyelll/src/session.zip
